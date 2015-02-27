@@ -5,3 +5,24 @@ html {
 *, *::before, *::after {
 	box-sizing: inherit;
 }
+
+main {
+	margin-left: 0.5em;
+
+}
+
+.inset-left {
+	float: left;
+	width: 40%;
+	margin-right: 15px;
+}
+
+.inset-right {
+	float: right;
+	width: 40%;
+	margin-right: 15px;
+}
+
+p {
+	font-size: 1.8em;
+}
