@@ -2,6 +2,10 @@ html {
 	box-sizing: border-box;
 }
 
+body {
+	margin: 0em 0em 0em 0em;
+}
+
 *, *::before, *::after {
 	box-sizing: inherit;
 }
@@ -9,6 +13,10 @@ html {
 main {
 	margin-left: 0.5em;
 
+}
+
+img {
+	width: 100%;
 }
 	header {
 		background-color: #ce5c36;
@@ -36,15 +44,12 @@ main {
 }
 
 figure {
-  border: 2px;
-  border-style: solid;
-  border-radius: 10px;
-  padding: 0.5em;
+  padding: 0em;
   margin: 1em;
   text-align: center;
-  color: black;
-  border-color: #bfaf0e;
-  background-color: #fffce1;
+  color: white;
+  margin: 0em;
+
 
 }
 	h3 {
@@ -54,8 +59,10 @@ figure {
 	text-align: center;
 	margin: 0;
 	padding: 0em 0em 0em 0em;
+	clear: left;
 
 }
+
 nav {
 	text-align:center;
 	font-size: 2rem;
@@ -70,6 +77,24 @@ nav li {
 	display: inline;
 	border-radius: 5px;
 }
+ul, li {
+	margin: ;
+	padding-left: 0em;
+}
+
+.grain-left {
+	float: left;
+	width: 20%;
+	margin-top: 10px;
+	clear; left;
+}
+
+.grain-right {
+	float: right;
+	width: 20%;
+	margin-top: 10px;
+	clear; left;
+}
 
 .inset-left {
 	float: left;
@@ -78,20 +103,33 @@ nav li {
 	clear; left;
 }
 
-.inset-right {
+.cereals {
 	float: right;
 	width: 40%;
 	margin-right: 15px;
 	margin-bottom: 12px;
 }
 
-.inset-right-2 {
+.quinoa {
 	float: right;
 	width: 40%;
 	margin-right: 15px;
 	clear: right;
 }
 
+.pblentils {
+	float: left;
+	width: 30%;
+	margin-left: 5px;
+	clear; left;
+	padding-left: 0;
+}
+.riceoats {
+	float: left;
+	width: 50%;
+	padding: 0em;
+	margin: 0em;
+}
 p {
 	font-size: 1.8em;
 }
@@ -104,10 +142,12 @@ footer {
   background-color: #ce5c36;
   padding: 1em;
   margin: 0;
-  color: #703838;
+  color: #e5a693;
   font-size: 1.4em;
   text-align: center;
 }
 div {
-	background-color: orange;
+	background-color: #da8257;
+	color: white;
+	overflow: hidden;
 }
