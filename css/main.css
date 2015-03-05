@@ -42,7 +42,7 @@ img {
 	line-height: 1.5;
 	text-align: center;
 	margin: 0;
-	padding: 0em 0em 0em 0em;
+	padding: 0.5em 0em 0.5em 0em;
 
 }
 
@@ -110,7 +110,9 @@ ul li {
 	font-size: 1.3rem;
 	list-style-type: none;
 }
-
+figcaption {
+	margin-bottom: 1em;
+}
 .boldlentils {
 	font-style: italic;
 }
